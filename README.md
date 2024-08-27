@@ -46,25 +46,27 @@ Update the `appsettings.json` file with your Azure Storage connection string:
   }
 }
 
-Usage
-Upload Image
+# Usage Guide for ABCRetail Dashboard
 
-Navigate to the "Upload Image" section.
-Select an image file and click "Upload Image".
-The image will be stored in the images container in Azure Blob Storage.
-Add Customer Profile
+## Usage
 
-Enter customer details (First Name, Last Name, Email, Phone Number).
-Click "Add Profile".
-The profile will be stored in the CustomerID table in Azure Table Storage.
-Process Order
+### 1. Upload Image
+- Navigate to the "Upload Image" section.
+- Select an image file and click "Upload Image".
+- The image will be stored in the `images` container in Azure Blob Storage.
 
-Enter the Order ID.
-Click "Process Order".
-The order will be sent to the order-processing queue in Azure Queue Storage.
-Upload Contract
+### 2. Add Customer Profile
+- Enter customer details: `First Name`, `Last Name`, `Email`, and `Phone Number`.
+- Click "Add Profile".
+- The profile will be stored in the `CustomerID` table in Azure Table Storage.
 
-Navigate to the "Upload Contract" section.
-Select a contract file and click "Upload Contract".
-The contract will be uploaded to the contracts-log file share in Azure File Share.
+### 3. Process Order
+- Enter the `Order ID`.
+- Click "Process Order".
+- The order will be sent to the `order-processing` queue in Azure Queue Storage.
+
+### 4. Upload Contract
+- Navigate to the "Upload Contract" section.
+- Select a contract file and click "Upload Contract".
+- The contract will be uploaded to the `contracts-log` file share in Azure File Share.
 
