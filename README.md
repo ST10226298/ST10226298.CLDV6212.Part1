@@ -35,17 +35,6 @@ The project follows a typical ASP.NET Core MVC structure with controllers, model
 - .NET 6.0 SDK or later
 - Azure Storage Account
 
-## Configuration
-
-Update the `appsettings.json` file with your Azure Storage connection string:
-
-```json
-{
-  "AzureStorage": {
-    "ConnectionString": "Your_Azure_Storage_Connection_String"
-  }
-}
-
 # Usage Guide for ABCRetail Dashboard
 
 ## Usage
@@ -69,4 +58,18 @@ Update the `appsettings.json` file with your Azure Storage connection string:
 - Navigate to the "Upload Contract" section.
 - Select a contract file and click "Upload Contract".
 - The contract will be uploaded to the `contracts-log` file share in Azure File Share.
+
+
+## Configuration
+
+Update the `appsettings.json` file with your Azure Storage connection string:
+
+```json
+{
+  "AzureStorage": {
+    "ConnectionString": "Your_Azure_Storage_Connection_String"
+  }
+}
+
+
 
