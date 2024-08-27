@@ -1,0 +1,47 @@
+﻿@model ABCRetail.Models.CustomerID
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ABCRetail Dashboard</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to ABCRetail Dashboard</h1>
+
+        <!-- Form for Uploading an Image -->
+        <h2>Upload Image</h2>
+        <form asp-action="UploadImage" method="post" enctype="multipart/form-data">
+            <input type="file" name="file" />
+            <button type="submit">Upload Image</button>
+        </form>
+
+        <!-- Form for Adding a Customer Profile -->
+        <h2>Add Customer Profile</h2>
+        <form asp-action="AddCustomerProfile" method="post">
+            <input type="text" name="FirstName" placeholder="First Name" required />
+            <input type="text" name="LastName" placeholder="Last Name" required />
+            <input type="email" name="Email" placeholder="Email" required />
+            <input type="text" name="PhoneNumber" placeholder="Phone Number" required />
+            <button type="submit">Add Profile</button>
+        </form>
+
+        <!-- Form for Processing an Order -->
+        <h2>Process Order</h2>
+        <form asp-action="ProcessOrder" method="post">
+            <input type="text" name="orderId" placeholder="Order ID" required />
+            <button type="submit">Process Order</button>
+        </form>
+
+        <!-- Form for Uploading a Contract -->
+        <h2>Upload Contract</h2>
+        <form asp-action="UploadContract" method="post" enctype="multipart/form-data">
+            <input type="file" name="file" />
+            <button type="submit">Upload Contract</button>
+        </form>
+    </div>
+</body>
+</html>
