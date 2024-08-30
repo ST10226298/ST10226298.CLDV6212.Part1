@@ -1,3 +1,11 @@
+C:\Users\lab_services_student\Documents\CLDV\ABCRetail\ABCRetail\obj\Debug\net8.0\ABCRetail.csproj.AssemblyReference.cache
+C:\Users\lab_services_student\Documents\CLDV\ABCRetail\ABCRetail\obj\Debug\net8.0\ABCRetail.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lab_services_student\Documents\CLDV\ABCRetail\ABCRetail\obj\Debug\net8.0\ABCRetail.AssemblyInfoInputs.cache
+C:\Users\lab_services_student\Documents\CLDV\ABCRetail\ABCRetail\obj\Debug\net8.0\ABCRetail.AssemblyInfo.cs
+C:\Users\lab_services_student\Documents\CLDV\ABCRetail\ABCRetail\obj\Debug\net8.0\ABCRetail.csproj.CoreCompileInputs.cache
+C:\Users\lab_services_student\Documents\CLDV\ABCRetail\ABCRetail\obj\Debug\net8.0\ABCRetail.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\lab_services_student\Documents\CLDV\ABCRetail\ABCRetail\obj\Debug\net8.0\ABCRetail.RazorAssemblyInfo.cache
+C:\Users\lab_services_student\Documents\CLDV\ABCRetail\ABCRetail\obj\Debug\net8.0\ABCRetail.RazorAssemblyInfo.cs
 C:\Users\lab_services_student\Documents\CLDV\ABCRetail\ABCRetail\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\lab_services_student\Documents\CLDV\ABCRetail\ABCRetail\bin\Debug\net8.0\appsettings.json
 C:\Users\lab_services_student\Documents\CLDV\ABCRetail\ABCRetail\bin\Debug\net8.0\ABCRetail.staticwebassets.runtime.json
@@ -16,14 +24,6 @@ C:\Users\lab_services_student\Documents\CLDV\ABCRetail\ABCRetail\bin\Debug\net8.
 C:\Users\lab_services_student\Documents\CLDV\ABCRetail\ABCRetail\bin\Debug\net8.0\System.ClientModel.dll
 C:\Users\lab_services_student\Documents\CLDV\ABCRetail\ABCRetail\bin\Debug\net8.0\System.IO.Hashing.dll
 C:\Users\lab_services_student\Documents\CLDV\ABCRetail\ABCRetail\bin\Debug\net8.0\System.Memory.Data.dll
-C:\Users\lab_services_student\Documents\CLDV\ABCRetail\ABCRetail\obj\Debug\net8.0\ABCRetail.csproj.AssemblyReference.cache
-C:\Users\lab_services_student\Documents\CLDV\ABCRetail\ABCRetail\obj\Debug\net8.0\ABCRetail.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\lab_services_student\Documents\CLDV\ABCRetail\ABCRetail\obj\Debug\net8.0\ABCRetail.AssemblyInfoInputs.cache
-C:\Users\lab_services_student\Documents\CLDV\ABCRetail\ABCRetail\obj\Debug\net8.0\ABCRetail.AssemblyInfo.cs
-C:\Users\lab_services_student\Documents\CLDV\ABCRetail\ABCRetail\obj\Debug\net8.0\ABCRetail.csproj.CoreCompileInputs.cache
-C:\Users\lab_services_student\Documents\CLDV\ABCRetail\ABCRetail\obj\Debug\net8.0\ABCRetail.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\lab_services_student\Documents\CLDV\ABCRetail\ABCRetail\obj\Debug\net8.0\ABCRetail.RazorAssemblyInfo.cache
-C:\Users\lab_services_student\Documents\CLDV\ABCRetail\ABCRetail\obj\Debug\net8.0\ABCRetail.RazorAssemblyInfo.cs
 C:\Users\lab_services_student\Documents\CLDV\ABCRetail\ABCRetail\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\lab_services_student\Documents\CLDV\ABCRetail\ABCRetail\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\lab_services_student\Documents\CLDV\ABCRetail\ABCRetail\obj\Debug\net8.0\staticwebassets\msbuild.ABCRetail.Microsoft.AspNetCore.StaticWebAssets.props

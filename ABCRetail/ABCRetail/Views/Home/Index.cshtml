@@ -1,47 +1,87 @@
-﻿@model ABCRetail.Models.CustomerID
+﻿@{
+    ViewData["Title"] = "Dashboard";
+    Layout = "_Layout";
+}
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ABCRetail Dashboard</title>
-    <link rel="stylesheet" href="~/css/site.css" />
-</head>
-<body>
-    <div class="container">
-        <h1>Welcome to ABCRetail Dashboard</h1>
+<h1 class="display-4 text-center mb-4">Welcome to ABCRetail </h1>
 
+<div class="container bg-emerald-green">
+    <div class="row">
         <!-- Form for Uploading an Image -->
-        <h2>Upload Image</h2>
-        <form asp-action="UploadImage" method="post" enctype="multipart/form-data">
-            <input type="file" name="file" />
-            <button type="submit">Upload Image</button>
-        </form>
+        <div class="col-md-6 col-lg-3 mb-4">
+            <div class="card">
+                <div class="card-header text-gold">
+                    <h2 class="h5 mb-0"><i class="bi bi-upload"></i> Upload Image</h2>
+                </div>
+                <div class="card-body">
+                    <form asp-action="UploadImage" method="post" enctype="multipart/form-data">
+                        <div class="mb-3">
+                            <input class="form-control" type="file" name="file" />
+                        </div>
+                        <button type="submit" class="btn btn-gold"><i class="bi bi-cloud-upload"></i> Upload</button>
+                    </form>
+                </div>
+            </div>
+        </div>
 
         <!-- Form for Adding a Customer Profile -->
-        <h2>Add Customer Profile</h2>
-        <form asp-action="AddCustomerProfile" method="post">
-            <input type="text" name="FirstName" placeholder="First Name" required />
-            <input type="text" name="LastName" placeholder="Last Name" required />
-            <input type="email" name="Email" placeholder="Email" required />
-            <input type="text" name="PhoneNumber" placeholder="Phone Number" required />
-            <button type="submit">Add Profile</button>
-        </form>
+        <div class="col-md-6 col-lg-3 mb-4">
+            <div class="card">
+                <div class="card-header text-gold">
+                    <h2 class="h5 mb-0"><i class="bi bi-person-plus"></i> Add Customer Profile</h2>
+                </div>
+                <div class="card-body">
+                    <form asp-action="AddCustomerProfile" method="post">
+                        <div class="mb-3">
+                            <input class="form-control" type="text" name="FirstName" placeholder="First Name" required />
+                        </div>
+                        <div class="mb-3">
+                            <input class="form-control" type="text" name="LastName" placeholder="Last Name" required />
+                        </div>
+                        <div class="mb-3">
+                            <input class="form-control" type="email" name="Email" placeholder="Email" required />
+                        </div>
+                        <div class="mb-3">
+                            <input class="form-control" type="text" name="PhoneNumber" placeholder="Phone Number" required />
+                        </div>
+                        <button type="submit" class="btn btn-gold"><i class="bi bi-person-plus-fill"></i> Add Profile</button>
+                    </form>
+                </div>
+            </div>
+        </div>
 
         <!-- Form for Processing an Order -->
-        <h2>Process Order</h2>
-        <form asp-action="ProcessOrder" method="post">
-            <input type="text" name="orderId" placeholder="Order ID" required />
-            <button type="submit">Process Order</button>
-        </form>
+        <div class="col-md-6 col-lg-3 mb-4">
+            <div class="card">
+                <div class="card-header text-gold">
+                    <h2 class="h5 mb-0"><i class="bi bi-cart-check"></i> Process Order</h2>
+                </div>
+                <div class="card-body">
+                    <form asp-action="ProcessOrder" method="post">
+                        <div class="mb-3">
+                            <input class="form-control" type="text" name="orderId" placeholder="Order ID" required />
+                        </div>
+                        <button type="submit" class="btn btn-gold"><i class="bi bi-box-arrow-in-right"></i> Process</button>
+                    </form>
+                </div>
+            </div>
+        </div>
 
         <!-- Form for Uploading a Contract -->
-        <h2>Upload Contract</h2>
-        <form asp-action="UploadContract" method="post" enctype="multipart/form-data">
-            <input type="file" name="file" />
-            <button type="submit">Upload Contract</button>
-        </form>
+        <div class="col-md-6 col-lg-3 mb-4">
+            <div class="card">
+                <div class="card-header text-gold">
+                    <h2 class="h5 mb-0"><i class="bi bi-file-earmark-arrow-up"></i> Upload Contract</h2>
+                </div>
+                <div class="card-body">
+                    <form asp-action="UploadContract" method="post" enctype="multipart/form-data">
+                        <div class="mb-3">
+                            <input class="form-control" type="file" name="file" />
+                        </div>
+                        <button type="submit" class="btn btn-gold"><i class="bi bi-cloud-upload"></i> Upload</button>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
-</body>
-</html>
+</div>
